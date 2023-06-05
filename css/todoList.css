@@ -1,0 +1,57 @@
+body {
+    background-color: beige;
+}
+
+header {
+    padding: 5px 0 5px 0;
+    background-color: rgb(3, 160, 160);
+    border: 3px solid;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#inputContainer {
+   margin: 4% 0 0 40%;
+}
+
+#taskInput {
+    width: 35%;
+    height: 30px;
+    border: 2px solid rgb(3, 160, 160);
+    border-radius: 5px;
+}
+
+#addBtn {
+    height: 30px;
+}
+
+#checkboxContainer {
+    margin: 5% 0 0 0;
+    height: 700px;
+    padding-top: 20px;
+    border-radius: 25px;
+    background-color: rgb(3, 160, 160);
+}
+
+.cbox {
+    width: 2em;
+    height: 2em;
+    margin: 13px 0 20px 40px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.cbox:checked {
+    background-color: black;
+}
+
+.label {
+    margin: 0 0 0 15px;
+    font-size: 25px;
+}
